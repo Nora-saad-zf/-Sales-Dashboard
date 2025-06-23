@@ -11,19 +11,7 @@ Hierarchy: Product Category → SubCategory → Product
 
 🔢 DAX Measures Table
 All measures are stored in a dedicated table named Measures.
-The following measures are created:
 
-# Orders = DISTINCTCOUNT(Sales[OrderID])
-
-# Order Details = COUNTROWS(Sales)
-
-Total SubTotal = SUM(Sales[SubTotal])
-
-Total Tax = SUM(Sales[TaxAmt])
-
-Total Freight = SUM(Sales[Freight])
-
-Total Due = SUM(Sales[TotalDue])
 
 📈 Visuals & Interactions
 🎯 Cards (KPI Tiles)
